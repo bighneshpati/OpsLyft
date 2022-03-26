@@ -9,7 +9,7 @@ WORKDIR /app
 ENV PATH="/app/.local/bin:${PATH}"
 
 RUN chown -R bighnesh:bighnesh /app
-USER alex
+USER bighnesh
 
 
 ENV FLASK_ENV=production
