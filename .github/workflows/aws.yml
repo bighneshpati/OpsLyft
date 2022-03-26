@@ -30,7 +30,8 @@ on:
   release:
     types:
       - "created"
-
+  # To run manually the event trigger
+  workflow_dispatch:
 env:
   AWS_REGION: us-east-1                   # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: aws-ecs-demo-ecr           # set this to your Amazon ECR repository name
