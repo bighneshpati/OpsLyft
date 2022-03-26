@@ -1,14 +1,14 @@
 FROM python:3.8-slim
 
 RUN apt-get update
-RUN useradd -r -s /bin/bash alex
+RUN useradd -r -s /bin/bash bighnesh
 
 
 ENV HOME /app
 WORKDIR /app
 ENV PATH="/app/.local/bin:${PATH}"
 
-RUN chown -R alex:alex /app
+RUN chown -R bighnesh:bighnesh /app
 USER alex
 
 
