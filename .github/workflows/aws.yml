@@ -48,6 +48,9 @@ jobs:
     steps:
       - name: Super-Linter
         uses: github/super-linter@v4.9.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
