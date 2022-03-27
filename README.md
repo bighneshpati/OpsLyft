@@ -1,7 +1,7 @@
 
 # OpsLyft Asssignment for Internship
 
-Develop a simple CI/CD pipeline which builds a docker container and runs it on AWS ECS which is configured for autoscaling and load-balancing.
+Developed a simple CI/CD pipeline which builds a docker container ,lint the code and runs it on AWS ECS which is configured for autoscaling and load-balancing.
 
 Here app.py is the flask Application which has to be deployed in the AWS ECS server.
 
